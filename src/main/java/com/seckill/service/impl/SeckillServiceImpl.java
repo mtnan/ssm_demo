@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * Created by Kohler on 2017/3/30.
  */
-//@Component, @Service, @Controller
+//@Component, @Service, @Controller, @Repository
 @Service
 public class SeckillServiceImpl implements SeckillService {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
